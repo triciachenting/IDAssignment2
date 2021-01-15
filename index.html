@@ -6,26 +6,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="headerspace">
-            <p>
-            </p>
-        </div>
-        <div class="flexside">
-            <div class="button">
-                <a href="jav.js" class="button">#Explore</a> <!-- auto search top news -->
-            </div>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="search instagram" name="search"> <!-- allow to search for news-->
-                    <button type="submit"><img src="images/search.png" alt="search" height="15px"></button>
-                </form>
-            </div>
-        </div>
-        <div>
-            <!-- display random news  when #explore is clicked -->
-            <!-- display results when searched -->
-        </div>
+       <div class="box">
+           <h2>Your Quote Of The Day</h2><br>
+           <p class="title"></p><br>
+           <p class="quote"></p><br>
+           <p class="author"></p><br>
+           <button type="button" id="generate">get new code</button>
+       </div>
+
+       <script src = "jav.js"></script>
     </body>
 </html>
